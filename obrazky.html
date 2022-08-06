@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+   filter: none;
+}
+#gallery img:hover {
+   filter:grayscale(100%);
+}
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   transition: filter 2s;
+}
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+@media (max-width: 1000px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+    </style>
+</head>
+<body>
+   <a href ="main.html"> <div id="gallery">
+  
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297281773_790165198661452_1959101742364921706_n.jpg?stp=dst-jpg_s180x540&_nc_cat=104&ccb=1-7&_nc_sid=5a057b&_nc_ohc=Rkj9CZeFOkwAX-VNDAd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLk_oFyr-VqaC_gXR18CJNsJ2XnlsazMV9phlvFCByUag&oe=63119E58">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297168360_1977978322393367_2865210843106431714_n.jpg?stp=dst-jpg_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5a057b&_nc_ohc=wEYWhS8TN2gAX-4AO1x&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJFuN_9ftrXDAAvTa9adrxgP4wpUKJJhoU-kkh7dEFdsw&oe=63135259">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/296251454_2108758575960444_1236087576176339709_n.jpg?stp=dst-jpg_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=5a057b&_nc_ohc=ObyEgsFmLG4AX87DRHG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVK2V-w6CY8T0ARGCnlN76vbMNmCaeV1Yvb8oP4jMcP49g&oe=63147615">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297089607_1255805058578609_9126873043504889923_n.jpg?stp=dst-jpg_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5a057b&_nc_ohc=Y-9i1PumZkIAX95QOpj&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVI01C28BmVNqKvWvMrNJDKMCjZhCAD6F2bbvvtJZRNUGA&oe=631426D7">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/296247972_626991132117798_80746607794140457_n.jpg?stp=dst-jpg_p240x240&_nc_cat=100&ccb=1-7&_nc_sid=5a057b&_nc_ohc=ShLjyaYUtw4AX-UPplE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKnTRGfeMmEskzr_5_5KUKk5hCmWhEB9QbYJZr38T9NGg&oe=6312771C">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297262439_677120957182159_3281046900868678153_n.jpg?stp=dst-jpg_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5a057b&_nc_ohc=XTZn6yavzbMAX-l0hO4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJ6m6vf-0E4Wn3Dn6fjuuUykltkFKqhKntBQmwpAZLQ2g&oe=63128B10">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297230195_738215827461724_6540874873179782715_n.jpg?stp=dst-jpg_p240x240&_nc_cat=108&ccb=1-7&_nc_sid=5a057b&_nc_ohc=03zbEb58xR4AX_p3TJC&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKUIR4Z6z22fimFUlt6pdfqU5aQGu0ekUAdLol1ca-0eQ&oe=63120D48">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297358432_443242187684112_3328407372691424201_n.jpg?stp=dst-jpg_p240x240&_nc_cat=107&ccb=1-7&_nc_sid=5a057b&_nc_ohc=x1Y_WSmghSEAX9VwSOd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIjXaiLmrsQGt1xWVPftru_qEmRNMLJ8c0Nnyz-u3YzeQ&oe=631456F4">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297177853_360468116282915_4428826266939608334_n.jpg?stp=dst-jpg_s240x240&_nc_cat=104&ccb=1-7&_nc_sid=5a057b&_nc_ohc=CjfwKLvY-jwAX9tccN5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIA5r2KgvfLbh7hhUft0zWEKiHiWtaCbILJcXIAimPb7A&oe=631438F2">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297094211_1199064447494007_7414856497375916215_n.jpg?stp=dst-jpg_p240x240&_nc_cat=103&ccb=1-7&_nc_sid=5a057b&_nc_ohc=pdJkthc2XEwAX9HOSas&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIrdfpGVCm7LzOnS8ouDku6YWCoo5muoBzJga3Epftj7A&oe=631369B3">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297177289_1061327331188019_141929280918153401_n.jpg?stp=dst-jpg_p240x240&_nc_cat=105&ccb=1-7&_nc_sid=5a057b&_nc_ohc=f89N56Qpif4AX-4Dd5G&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJRS-H0-_dTrSgorRfSC72F9Dse3Qp0fhFbOEc6qe_eNg&oe=63155D08">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297133787_380173977606337_3394972758991040335_n.jpg?stp=dst-jpg_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5a057b&_nc_ohc=avFXDXS0R3MAX94jo5U&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVItPymu7843-9U2yFt9HOL3Gm2QxUaGCxVllrymZCoXXg&oe=6312985F">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297298435_1445348029239391_7412141976779092855_n.jpg?stp=dst-jpg_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5a057b&_nc_ohc=zrwAE-7KIE8AX9aWVow&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKfM2goC1x5q8uOrOlvueQzZxOclVGc12mwfkwc21H8XQ&oe=63122284">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297269339_476611157131882_4117086227509781958_n.jpg?stp=dst-jpg_p240x240&_nc_cat=107&ccb=1-7&_nc_sid=5a057b&_nc_ohc=CzOuBPvCG1kAX9704Mc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIJTXUTM8Qqikla5LPcx5mEMVjyFMem5vGXMe43Ex3vjg&oe=6314E567">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297217179_1066681463987557_9203322828237710791_n.jpg?stp=dst-jpg_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=5a057b&_nc_ohc=nWbyXLx-XnMAX_I3e24&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKa399XtGFeGYSomSB2Img6PKujKwkNgdXBuBs1IwhKdQ&oe=6313FDCA">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297338229_1172617646620117_2002391416338255826_n.jpg?stp=dst-jpg_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=5a057b&_nc_ohc=NkqEmNT8DF8AX-j28ti&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJ9UAKncNbk1yIIG0RAktAGIWRIS9EDykX-qjuJFbN67A&oe=63126110">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/296328049_5528728137194937_8780477882008787148_n.jpg?stp=dst-jpg_p240x240&_nc_cat=100&ccb=1-7&_nc_sid=5a057b&_nc_ohc=9FrV51A9gQMAX_xC-7K&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJNX3w3GC8at-GfrJgmrvzCFii8Rig2gbTaUpB0915rww&oe=63127486">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297215711_775066243646803_1956040519150322527_n.jpg?stp=dst-jpg_p240x240&_nc_cat=108&ccb=1-7&_nc_sid=5a057b&_nc_ohc=cswOzNZ5xukAX9fc98w&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIyFyjiut17wtUY5dscGzpVxmQsCR2pvgxE3QyqI7In9Q&oe=63131688g">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297246935_360355482974673_5822518585716462641_n.jpg?stp=dst-jpg_p240x240&_nc_cat=103&ccb=1-7&_nc_sid=5a057b&_nc_ohc=B8MjbIQsGbgAX-hsmet&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJr_hHkRgCb-LVu7KWkchnvbswcqH3HL-iJiA2Ef11bkA&oe=6314DBE9">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297237419_561001868791164_7511563978315913295_n.jpg?stp=dst-jpg_s240x240&_nc_cat=108&ccb=1-7&_nc_sid=5a057b&_nc_ohc=gXrb6eBYnxIAX_ep1SU&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVI9JdHTWSsKXJ9-RG9YX1b0Tn5BcGK1xHY8zqBBE2hIfQ&oe=6314FA2F">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297268415_755221305530120_799140645073787511_n.jpg?stp=dst-jpg_p600x600&_nc_cat=111&ccb=1-7&_nc_sid=5a057b&_nc_ohc=H2wgiFaCN08AX9IhuNV&_nc_oc=AQkP8M-_6CVNdhHOpNmE_MLt64csIeaZutuqslCr-0bUW0RXpUOj6UeIfeXf8eKACIUqU_1dk5iNmkghLapuVF1d&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKIVu5hU2qUlaHSYd4Xm82PJ9srVlP-v_H7R44bF4iHwA&oe=63149455g">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297093469_435380848521940_4424487613883612468_n.jpg?stp=dst-jpg_p240x240&_nc_cat=106&ccb=1-7&_nc_sid=5a057b&_nc_ohc=_e8YvrW5qj4AX8LQ-5O&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKbt_pc9iFYbPbAttTbFtparIKwfWwVl7ElDCAokeZIdg&oe=6313DA60">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297290824_418025083726290_5375897561140046301_n.jpg?stp=dst-jpg_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5a057b&_nc_ohc=GBNz25XUj-8AX97Chdk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVL0V9dNhDdHIwKDzK8tJ6pjB1Ed1aXpafIAh-12VHMNkg&oe=63123FDC">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297126096_1963256890535020_3773452830901483814_n.jpg?stp=dst-jpg_p240x240&_nc_cat=100&ccb=1-7&_nc_sid=5a057b&_nc_ohc=TzdjbUgnEH8AX_18NmV&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLJ83PvsPwWbOAu7UkFTOl5egVYQfeuVlblV9nMfX7BQQ&oe=63145283">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297170978_1267351084069052_4439859675753577995_n.jpg?stp=dst-jpg_s180x540&_nc_cat=109&ccb=1-7&_nc_sid=5a057b&_nc_ohc=tbmWW0Ly-44AX-0FzAv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJtZozuuBh6s43D0vZWjz-S5CSCzRIaK_tZECdLO4jD7w&oe=63132D93">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/297090142_996149581080697_6764942867268098170_n.jpg?stp=dst-jpg_p240x240&_nc_cat=108&ccb=1-7&_nc_sid=5a057b&_nc_ohc=K1Xeso0Q-pkAX-NvxPR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIag2hOQZi8j3KZ0ZRtWATrTgIa9_15OF-CE6b5_ZrhBw&oe=63156301">
+        <img src="https://scontent.cdninstagram.com/v/t1.15752-9/296340671_1026901491320183_6372149930212712862_n.jpg?stp=dst-jpg_p240x240&_nc_cat=103&ccb=1-7&_nc_sid=5a057b&_nc_ohc=hqjli8GlDJIAX_C83Lj&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJtSQwwPPw6THOebh9ygZKf_Rsk9S-SfJIjvdY9Id4WbQ&oe=63129581">
+       
+       </div></a>
+</body>
+</html>
